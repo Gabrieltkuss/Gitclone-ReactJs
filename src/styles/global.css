@@ -1,0 +1,227 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*Variaveis*/
+:root {
+  --dark: #24292f;
+  --dark-50: #2a3138;
+  --grey: #63686e;
+  --grey-50: #b5b8ba;
+  --green: #00c652;
+  --white: #fff;
+  --border-radius: 5px;
+}
+
+/* CSS RESET */
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: lighter;
+}
+
+/*FORM*/
+input[type='text'] {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 2px solid var(--grey-50);
+  border-radius: var(--border-radius);
+}
+
+label {
+  color: var(--grey);
+  margin-bottom: 10px;
+  display: block;
+}
+
+/*Buttons*/
+.btn {
+  padding: 10px 30px;
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-block {
+  display: block;
+  text-align: center;
+}
+
+.btn-lg,
+.zoom {
+  zoom: 1.2;
+}
+
+/*Color*/
+.color-white {
+  color: var(--white);
+}
+
+.color-dark {
+  color: var(--dark);
+}
+
+.color-grey-50 {
+  color: var(--grey-50);
+}
+
+/*Common*/
+.border-radius {
+  border-radius: var(--border-radius);
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.padding-vertical {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/*Backgrounds*/
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-dark-50 {
+  background-color: var(--dark-50);
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}
+
+.bg-grey-50 {
+  background-color: var(--grey-50);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+/* Grid */
+.containet-fluid {
+  width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.row > div {
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 55px;
+  height: 50px;
+}
+
+/*Document CSS*/
+#main-menu li {
+  margin-left: 15px;
+  list-style-type: none;
+}
+#main-menu li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.form-box {
+  width: 300px;
+  padding: 15px;
+}
+
+.form-box input {
+  margin-bottom: 10px;
+}
+
+.form-box small {
+  color: var(--grey-50);
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+  display: block;
+}
+
+#clients {
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#clients > div {
+  flex: 0 200px;
+  height: 150px;
+  margin-bottom: 25px;
+  margin: 10px;
+  background-color: var(--grey-50);
+}
+
+#banner-cta {
+  background-image: url(../assets/mac.png);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 30px;
+}
+
+.box-image {
+  height: 300px;
+  background-color: var(--grey-50);
+}
+
+#main-menu-mobile {
+  display: none;
+}
+
+.btn-mobile {
+  display: none;
+}
